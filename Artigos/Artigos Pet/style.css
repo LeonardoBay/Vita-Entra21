@@ -76,8 +76,8 @@ h1 {
 }
 
 .pessoa_pet img {
-    height: 142px;
-    width: 365px;
+    height: auto;
+    width: 370px;
     margin: 15px;
     margin-top: 20px;
 }
@@ -85,6 +85,42 @@ h1 {
 /* .pessoa_pet:hover {
     opacity: 0.8;
 } */
+
+.requisitos {
+    padding: 20px;
+    margin: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #deaaaa;
+    border-radius: 20px;
+
+    margin-bottom: 130px;
+}
+
+.requisitos h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #7A0F11;
+    padding: 5px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.requisitos li {
+    margin-left: 20px;
+
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #5A0000;
+}
 
 /* ---------------------------- BARRA DE NAVEGAÇÃO ------------------------------ */
 
@@ -97,7 +133,6 @@ h1 {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: ;
 }
 
 .navegacao img {
