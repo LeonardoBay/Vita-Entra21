@@ -68,6 +68,12 @@ h1 {
     font-size: 15px;
 }
 
+#titulo img {
+    margin-right: 340px; 
+    width: 41px;
+    height: 39;
+ }
+
 /* --------------------------------------------------------- ACCORDION ----------------------------------------------------------*/
 
 .dropdown {
@@ -210,4 +216,8 @@ li {
 #artigo:active {
     background-color: #b64d4d;
     opacity: 0.5;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent; 
 }

@@ -113,6 +113,15 @@ body {
     padding: 5px;
 }
 
+@media screen and (max-width: 419px) {
+    .doacoes img {
+      width: auto; /* Defina a largura das imagens como 100% da largura do contêiner pai */
+      height: 115px; /* Mantenha a proporção original da altura */
+      padding: 5px; /* Ajuste conforme necessário */
+    }
+  }
+
+
 /* ---------------------------- BARRA DE NAVEGAÇÃO ------------------------------ */
 
 .navegacao {
@@ -197,7 +206,9 @@ body {
     opacity: 0.5;
 }
 
-
+a {
+    -webkit-tap-highlight-color: transparent; 
+}
 
 
 
