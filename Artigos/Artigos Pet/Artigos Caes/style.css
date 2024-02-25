@@ -123,8 +123,8 @@ li {
 /* ---------------------------- BARRA DE NAVEGAÇÃO ------------------------------ */
 
 .navegacao {
-    margin-top: 20px;
-    padding: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     display: flex;
     background: #5A0000;
     justify-content: center;
@@ -140,3 +140,74 @@ li {
     height: 40px;
 }
 
+#cachorro:active {
+    opacity: 0.8;
+}
+
+#gato:active {
+    opacity: 0.8;
+}
+
+
+#perfil {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#perfil:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#gota {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#gota:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#recompensa {
+    background-color: #5A0000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#recompensa:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    
+}
+
+#feed:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
+
+#feed {
+    width: 50px;
+}
+
+#artigo {
+    background-color: #5A0000;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+   
+}
+
+#artigo:active {
+    background-color: #b64d4d;
+    opacity: 0.5;
+}
