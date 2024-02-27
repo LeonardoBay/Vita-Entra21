@@ -100,6 +100,20 @@ h1 {
     margin-left: 4px;
 }
 
+@media screen and (max-width: 430px) {
+
+    .titulo_botao {
+        font-size: 19px;
+    }
+  }
+
+  @media screen and (max-width: 392px) {
+
+    .titulo_botao {
+        font-size: 17px;
+    }
+  }
+
 .card_header img {
     display: flex;
     flex-direction: row;
