@@ -64,6 +64,6 @@ function cadastrar(event) {
   msgSuccess.setAttribute("style", "display: block");
   msgSuccess.innerHTML = "<strong>Cadastrando usuário...</strong>";
   setTimeout(() => {
-    window.location.href = "/Login/index.html";
+    window.location.href = "../index.html";
   }, 3000);
 }
